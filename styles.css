@@ -33,8 +33,8 @@ a:hover {
   flex-flow: column nowrap;
 }
 
-.y.mandatory-scroll-snapping {
-  scroll-snap-type: y mandatory;
+.y.proximity-scroll-snapping {
+  scroll-snap-type: y proximity;
 }
 
 .page-container {
@@ -46,6 +46,10 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.page-container.first {
+  height: 90vh;
 }
 
 nav {
@@ -146,6 +150,11 @@ header {
   color: #e45a98;
 }
 
+.scroll-prompt {
+  color: #e45a98;
+  margin-top: 2em;
+}
+
 @media (max-width: 900px) {
   nav {
     margin-bottom: 2em;
@@ -168,5 +177,9 @@ header {
 
   .hero-body > p {
     margin: 0 0 0.5em 0;
+  }
+
+  .page-container.first {
+    height: 75vh;
   }
 }
