@@ -98,9 +98,43 @@ header {
   background-repeat: no-repeat;
 } */
 
+.poster-container {
+  position: relative;
+}
+
 .poster {
   max-height: 90vh;
   max-width: 90vw;
+}
+
+.up-arrow {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.up-arrow .arrow-box-outer {
+  width: 2em;
+  height: 2em;
+  background-color: #ef9cc1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.up-arrow .arrow-box-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.up-arrow .arrow {
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0.5em 0.5em 0.5em;
+  border-color: transparent transparent #4a4a4a;
 }
 
 @media (max-width: 900px) {
