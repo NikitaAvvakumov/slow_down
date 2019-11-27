@@ -48,6 +48,14 @@ a:hover {
   justify-content: center;
 }
 
+.page-container.designer {
+  height: auto;
+}
+
+.page-container.designer nav {
+  margin: 2em 0;
+}
+
 .page-container.first {
   height: 90vh;
 }
@@ -61,6 +69,7 @@ nav {
 nav a {
   margin: 0 2em;
   font-size: 1.5em;
+  font-weight: bold;
 }
 
 header {
