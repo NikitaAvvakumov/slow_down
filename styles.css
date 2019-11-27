@@ -56,7 +56,6 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 3em;
 }
 
 nav a {
