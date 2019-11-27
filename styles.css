@@ -11,6 +11,19 @@ body {
   line-height: 1.5;
 }
 
+a {
+  color: #ef9cc1;
+}
+
+a:hover {
+  color: #e45a98;
+  text-decoration: underline;
+  text-decoration-thickness: 0.6em;
+  text-decoration-color: #ef9cc1;
+  text-underline-offset: 0.2em;
+  text-decoration-skip-ink: none;
+}
+
 .container {
   display: flex;
   overflow: auto;
@@ -44,16 +57,7 @@ nav {
 
 nav a {
   margin: 0 2em;
-  color: #4a4a4a;
   font-size: 1.5em;
-}
-
-nav a:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 0.6em;
-  text-decoration-color: #ef9cc1;
-  text-underline-offset: 0.2em;
-  text-decoration-skip-ink: none;
 }
 
 header {
@@ -71,7 +75,7 @@ header {
   font-size: 4em;
   font-weight: bold;
   letter-spacing: 0.2em;
-  background-image: url('pink_brush_stroke.png');
+  background-image: url('images/pink_brush_stroke.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0.3em;
@@ -135,6 +139,11 @@ header {
   border-style: solid;
   border-width: 0 0.5em 0.5em 0.5em;
   border-color: transparent transparent #4a4a4a;
+}
+
+.copyright {
+  margin-top: 3em;
+  color: #e45a98;
 }
 
 @media (max-width: 900px) {
